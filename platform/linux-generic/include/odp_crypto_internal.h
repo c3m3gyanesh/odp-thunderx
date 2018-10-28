@@ -14,6 +14,7 @@ extern "C" {
 #ifndef ODP_DISABLE_CRYPTO
 #include <openssl/des.h>
 #include <openssl/aes.h>
+#include <openssl/evp.h>
 #endif
 
 #define OP_RESULT_MAGIC 0x91919191
