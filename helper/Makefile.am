@@ -22,6 +22,7 @@ helperinclude_HEADERS = \
 		  $(srcdir)/include/odp/helper/icmp.h\
 		  $(srcdir)/include/odp/helper/ip.h\
 		  $(srcdir)/include/odp/helper/ipsec.h\
+		  $(srcdir)/include/odp/helper/odph_api.h \
 		  $(srcdir)/include/odp/helper/odph_hashtable.h \
 		  $(srcdir)/include/odp/helper/odph_lineartable.h \
 		  $(srcdir)/include/odp/helper/odph_cuckootable.h \
@@ -32,8 +33,8 @@ helperinclude_HEADERS = \
 		  $(srcdir)/include/odp/helper/udp.h
 
 noinst_HEADERS = \
-		 $(srcdir)/odph_debug.h \
-		 $(srcdir)/odph_list_internal.h
+		 $(srcdir)/include/odph_debug.h \
+		 $(srcdir)/include/odph_list_internal.h
 
 __LIB__libodphelper_linux_la_SOURCES = \
 					eth.c \
