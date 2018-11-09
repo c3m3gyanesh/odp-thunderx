@@ -27,6 +27,7 @@ helperinclude_HEADERS = \
 		  $(srcdir)/include/odp/helper/odph_lineartable.h \
 		  $(srcdir)/include/odp/helper/odph_cuckootable.h \
 		  $(srcdir)/include/odp/helper/odph_iplookuptable.h \
+		  $(srcdir)/include/odp/helper/odph_iplookuptablev6.h \
 		  $(srcdir)/include/odp/helper/strong_types.h\
 		  $(srcdir)/include/odp/helper/tcp.h\
 		  $(srcdir)/include/odp/helper/table.h\
@@ -44,6 +45,7 @@ __LIB__libodphelper_linux_la_SOURCES = \
 					hashtable.c \
 					cuckootable.c \
 					iplookuptable.c \
+					iplookuptablev6.c \
 					lineartable.c
 
 lib_LTLIBRARIES = $(LIB)/libodphelper-linux.la
