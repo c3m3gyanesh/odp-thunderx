@@ -5,8 +5,8 @@
  */
 
 #include <test_debug.h>
-#include <../odph_hashtable.h>
-#include <../odph_lineartable.h>
+#include <odp/helper/odph_hashtable.h>
+#include <odp/helper/odph_lineartable.h>
 #include <odp_api.h>
 
 /**
